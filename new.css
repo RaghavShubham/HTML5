@@ -1,0 +1,90 @@
+/* New HTML
+#Papa{
+	border: 1px solid black;
+	display:-webkit-box;
+	-webkit-box-orient: horizontal;
+	/*  -webkit-box-direction: reverse;        It reverses everything in this parent*/
+	width: 700px;
+	/* -webkit-box-pack: center; other two are start and end to specify left and right*/
+/*	height: 300px;
+	-webkit-box-align: stretch;
+}
+#kid1{
+	border: 1px solid white;
+	background: black;
+	color: white;
+	margin: 10px;
+	padding: 20px;
+	/*-webkit-box-ordinal-group: 3;*/
+/*	-webkit-box-flex: 1;
+}
+#kid4{
+	border: 1px solid white;
+	background: black;
+	color: white;
+	margin: 10px;
+	padding: 20px;
+	/*-webkit-box-ordinal-group: 2;*/
+/*	-webkit-box-flex: 1;
+}
+#kid3{
+	border: 1px solid white;
+	background: black;
+	color: white;
+	margin: 10px;
+	padding: 20px;
+	/*-webkit-box-ordinal-group: 1;*/
+/*	-webkit-box-flex: 1;
+}
+#kid2{
+	border: 1px solid white;
+	background: black;
+	color: white;
+	margin: 10px;
+	padding: 20px;
+	/*-webkit-box-ordinal-group: 4;*/
+/*	width: 60px;
+	-webkit-box-flex: 1;   /*If the value is greater than one then it takes that many times the space
+}*/
+
+
+
+
+
+/*Tutorial 20*/
+body{
+	text-align: center;
+}
+#box{
+	display: block;
+	width: 500px;
+	height: 75px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	opacity: 1;
+	border: 7px solid white;
+	background: black;
+	color: white;
+	outline: 7px solid black;
+	-webkit-transition: -webkit-transform 2s, opacity 2s, height 2s, width 2s, background 2s, color 2s;
+	/*background: -webkit-linear-gradient(top, black, white);*/
+/*	background: -webkit-radial-gradient(center, circle, red 0%, blue 50%);*/
+/*	-webkit-transform: translate(130px,140px) /*skew(67deg);*//*rotate(67deg) scale(.8);*/ /*or scale(1,3) or scale(1.5)*/
+/*	-webkit-border-radius: 15px;
+	-webkit-box-shadow: rgba(110,110,110, .6) 8px/*How much to the right*/ /*8pxhow much down*//* 8pxhow much blurrrrr*/ /*inset       makes the shadow go inside   the a in rgba stands for alpha which defines the transparency of the shadow*/ ;*/
+}
+#box:hover{
+	-webkit-transform: rotate(360deg);
+	opacity: 0.6;
+	background: cyan;
+	color: black;
+	height: 100px;
+	width: 600px;
+
+}
+#text{
+	font: bold 20px Ariel;
+	/*text-shadow: rgb(110,110,110) 3px 3px 5px;*/
+
+}
